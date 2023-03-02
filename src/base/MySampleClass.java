@@ -14,4 +14,16 @@ public class MySampleClass {
     public MySampleClass(Integer myNumber) {
         this.myNumber = myNumber;
     }
+
+    // Accessors
+
+    // Getter
+    public boolean isOk() {
+        return isOk;
+    }
+
+    // Setter
+    public void setOk(boolean ok) {
+        isOk = ok;
+    }
 }
